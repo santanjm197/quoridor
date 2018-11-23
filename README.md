@@ -9,13 +9,21 @@ See: https://en.wikipedia.org/wiki/Quoridor#Notation for information on how move
 to be formed.
 
 POSSIBLE EXTENSIONS:
+
 1: Adding each player's remaining walls to the UI
+
 2: Ability to play the game by clicking on the UI instead of only through the command line
+
 3: An AI that can play against any number of human players or other AI players
 
 TO RUN:
+
 1: To build the project, enter the directory containing the pom.xml file and type: 'mvn package'
+
 2: To play the game, type: 
-'java -cp target/santanjm-quoridor-1.0-SNAPSHOT.jar santanjm.quoridor.Quoridor <number of players>'
-  where '<number of players>' is either 2 or 4
+
+'java -cp target/santanjm-quoridor-1.0-SNAPSHOT.jar santanjm.quoridor.Quoridor \<number of players\>'
+  
+where '\<number of players\>' is either 2 or 4
+  
 3: Follow the instructions on the command line to play
